@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Install the project
 
-Things you may want to cover:
+```bash
+$ git clone ...
+$ cd keto-app
+$ bundle install
+$ bin/rails server
+```
 
-* Ruby version
+## Run the project locally
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+$ foreman start -f Procfile.dev
+```
